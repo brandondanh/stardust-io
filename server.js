@@ -24,6 +24,9 @@ app.use(express.static(__dirname + '/www'));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
+app.get('./styles.css')
+
+// app.get('/', (req, res) => {
 
 // /api/todos output in the form of 
 /*
